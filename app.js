@@ -1,50 +1,73 @@
-var arr=[]
+// var userInput=prompt("enter the lowercase");
+// var alllower=userInput.slice(0,1).toLowercase
+// console.log(userInput);
 
-var std=["shoaib","azhar","ahsan"]
-console.log(std);
+// var userInput=prompt("enter the Uppercase");
+// var alllower=userInput.slice(0,1).toUpperCase;
+// console.log(userInput);
 
-var number=["1","2","3","4"]
-console.log(number);
+// var y= prompt("enter the variables")
+// var xy= y.slice(y).to
 
-var bolean=["true", "false" ]
-console.log(bolean);
 
-var mixed=["a","b","1","2","true","false"]
-console.log(mixed);
+// var str = "captain";
 
-var qualification=["ssc","hsc","bcs","cs","bcom"]
-console.log(qualification);
+// for (var i = 0; i < str.length; i++) {
+//   if (str.slice(i, i + 1) === "ap") {
+//     str = str.slice(0, i) + "captain" + str.slice(i + 1);
+//   }
+//   console.log(str.slice(i, i + 1));
+// }
 
-var stdname=["kamran","ahsan","zohaib"]
- var stdmarks=["430","470","350"]
-var totalmarks=["500"]
- var std1per= stdmarks[0] / totalmarks*100
- console.log(std1per);
- var std2per=stdmarks[1]/totalmarks*100
- console.log(std2per);
- var std3per= stdmarks[2]/totalmarks*100
- console.log(std3per);
+// var str = "elephant";
 
- var color=["orange","yellow","blue","pink","green"]
- console.log(color);
+// for (var i = 0; i < str.length; i++) {
+//   if (str.slice(i, i + 6) === "elep") {
+//     str = str.slice(0, i) + "elephant" + str.slice(i + 6);
+//   }
+//   console.log(str.slice(i, i + 6));
+// }
 
- var user = prompt["a. Ask the user what color he/she wants to add to the"]
-  color.unshift("blue");
+// var arr=["captain"]
+// console.log(arr.length)
 
-  var user=prompt["b. Ask the user what color he/she wants to add to the end"]
-  color.push("orange");
+// var num = 2.4
 
-  var user=prompt["Add two more color to the beginning of the array"]
-  color.unshift("orange","green");
+// console.log(Math.round(num));
 
-  var user=prompt["Delete the first color in the array."]
-  color.shift("")
+// var num= 8.7
+// console.log(Math.round(num));
 
- var cityname=["lahore","karachi","nawabshah","hyderabad"]
- console.log("cityname");
 
- var arr=["this","is","my","cat"]
- console.log("arr")
- arr.join("");
+// var num=5.567
+// console.log(Math.ceil(num));
+
+// var num=3.4
+// console.log(Math.floor(num));
+
+// var randomNumbers = Math.random() * 50;
+// console.log(randomNumbers.toFixed(1));
+
+// var randomNumbers = Math.random() *30;
+// console.log(randomNumbers.toFixed(0));
+
+// var dice =(num*6)+1
+// console.log(arr.length);
+
+// var randomNumbers=Math.random()
+// if(randomNumbers<0.5){
+//     console.log(randomNumbers)
+// }
+
+// var num1 = Number(prompt("Enter first value"));
+
+// var num2 = Number(prompt("Enter second value"));
+
+// var add = num1 + num2;
+
+
+var currentAge = prompt("Enter your age.");
+ var yearsEligibleToVote = currentAge - 18;
+
 
 
